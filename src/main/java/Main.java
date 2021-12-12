@@ -12,7 +12,7 @@ import java.util.stream.IntStream;
 public class Main {
     public static void main(String[] args) throws IOException {
         PasswordGenerator passwordGenerator = new PasswordGenerator();
-//        generateAndWriteWithMD5(passwordGenerator);
+        generateAndWriteWithMD5(passwordGenerator);
         generateAndWriteWithArgon(passwordGenerator);
     }
 
